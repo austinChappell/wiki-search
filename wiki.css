@@ -1,0 +1,99 @@
+html {
+  text-align: center;
+  background: #63A69F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#brand {
+  color: #F2E1AC;
+  font-size: 36px;
+}
+
+.container {
+  margin: 35vh auto;
+}
+
+.search-container {
+  margin: 40px auto;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+#random-read {
+  text-decoration: none;
+  color: #F2594B;
+  font-size: 16px;
+  background: #F2E1AC;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+#form {
+  margin: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+#submit {
+  background: #F2594B;
+  color: #FFF;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#wiki-search {
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  outline: none;
+  padding: 3px 6px;
+}
+
+#wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background: white;
+  margin: 10px auto;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+  #wrapper {
+    width: 80%;
+  }
+  .snippet {
+    font-size: 14px;
+  }
+}
