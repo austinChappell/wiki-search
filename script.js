@@ -18,7 +18,7 @@ $(document).ready(function(){
     $('#container').addClass('search-container');
 
     $.getJSON('https://en.wikipedia.org/w/api.php?format=json&action=query&list=search&srsearch=' + search + '&srlimit=10&prop=revisions&callback=?', function(json){
-      for(var i = 0; i < 10; i++) {
+      for(var i = 0; i < json.query.search.length; i++) {
         var title = json.query.search[i].title;
         var snippet = json.query.search[i].snippet;
         var titleURL = title.replace(/ /gi, '_');
